@@ -21,12 +21,6 @@ namespace LoadingIndicator.WinForms
 				{
 					using (CreateTimer(threadWrapper))
 					{
-						//TimeSlice t = TimeSlice.Start(sleep);
-						//while (!t.HasExpired)
-						//{
-
-						//}
-
 						Thread.Sleep(sleep);
 					}
 				}
